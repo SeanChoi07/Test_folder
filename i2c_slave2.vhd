@@ -7,7 +7,7 @@
 -- Simulation  		: Modelsim 10.0b
 -- Synthesis		: QuartusII 13.1
 -- Target      		: CycloneIV
--- Revision Date	: 2016.04.16
+-- Revision Date	: 2016.04.17
 -------------------------------------------------------------------------------
 
 library ieee;
