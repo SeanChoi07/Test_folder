@@ -30,6 +30,48 @@ port(
 	ireg05_data			: in std_logic_vector(7 downto 0);
 	ireg06_data			: in std_logic_vector(7 downto 0);
 	ireg07_data			: in std_logic_vector(7 downto 0);
+	ireg08_data			: in std_logic_vector(7 downto 0);
+	ireg09_data			: in std_logic_vector(7 downto 0);
+	ireg10_data			: in std_logic_vector(7 downto 0);
+	ireg11_data			: in std_logic_vector(7 downto 0);
+	ireg12_data			: in std_logic_vector(7 downto 0);
+	ireg13_data			: in std_logic_vector(7 downto 0);
+	ireg14_data			: in std_logic_vector(7 downto 0);
+	ireg15_data			: in std_logic_vector(7 downto 0);
+	ireg16_data			: in std_logic_vector(7 downto 0);
+	ireg17_data			: in std_logic_vector(7 downto 0);
+	ireg18_data			: in std_logic_vector(7 downto 0);
+	ireg19_data			: in std_logic_vector(7 downto 0);
+	ireg20_data			: in std_logic_vector(7 downto 0);
+	ireg21_data			: in std_logic_vector(7 downto 0);
+	ireg22_data			: in std_logic_vector(7 downto 0);
+	ireg23_data			: in std_logic_vector(7 downto 0);
+	ireg24_data			: in std_logic_vector(7 downto 0);
+	ireg25_data			: in std_logic_vector(7 downto 0);
+	ireg26_data			: in std_logic_vector(7 downto 0);
+	ireg27_data			: in std_logic_vector(7 downto 0);
+	ireg28_data			: in std_logic_vector(7 downto 0);
+	ireg29_data			: in std_logic_vector(7 downto 0);
+	ireg30_data			: in std_logic_vector(7 downto 0);
+	ireg31_data			: in std_logic_vector(7 downto 0);
+	ireg32_data			: in std_logic_vector(7 downto 0);
+	ireg33_data			: in std_logic_vector(7 downto 0);
+	ireg34_data			: in std_logic_vector(7 downto 0);
+	ireg35_data			: in std_logic_vector(7 downto 0);
+	ireg36_data			: in std_logic_vector(7 downto 0);
+	ireg37_data			: in std_logic_vector(7 downto 0);
+	ireg38_data			: in std_logic_vector(7 downto 0);
+	ireg39_data			: in std_logic_vector(7 downto 0);
+	ireg40_data			: in std_logic_vector(7 downto 0);
+	ireg41_data			: in std_logic_vector(7 downto 0);
+	ireg42_data			: in std_logic_vector(7 downto 0);
+	ireg43_data			: in std_logic_vector(7 downto 0);
+    ireg44_data         : in std_logic_vector(7 downto 0);
+    ireg45_data         : in std_logic_vector(7 downto 0);
+    ireg46_data         : in std_logic_vector(7 downto 0);
+    ireg47_data         : in std_logic_vector(7 downto 0);
+    ireg48_data         : in std_logic_vector(7 downto 0);
+    ireg49_data         : in std_logic_vector(7 downto 0);
 
 	reg_updated			: out std_logic;
 	oreg00_data			: out std_logic_vector(7 downto 0);
@@ -39,7 +81,49 @@ port(
 	oreg04_data			: out std_logic_vector(7 downto 0);
 	oreg05_data			: out std_logic_vector(7 downto 0);
 	oreg06_data			: out std_logic_vector(7 downto 0);
-	oreg07_data			: out std_logic_vector(7 downto 0)
+	oreg07_data			: out std_logic_vector(7 downto 0);
+	oreg08_data			: out std_logic_vector(7 downto 0);
+	oreg09_data			: out std_logic_vector(7 downto 0);
+	oreg10_data			: out std_logic_vector(7 downto 0);
+	oreg11_data			: out std_logic_vector(7 downto 0);
+	oreg12_data			: out std_logic_vector(7 downto 0);
+	oreg13_data			: out std_logic_vector(7 downto 0);
+	oreg14_data			: out std_logic_vector(7 downto 0);
+	oreg15_data			: out std_logic_vector(7 downto 0);
+	oreg16_data			: out std_logic_vector(7 downto 0);
+	oreg17_data			: out std_logic_vector(7 downto 0);
+	oreg18_data			: out std_logic_vector(7 downto 0);
+	oreg19_data			: out std_logic_vector(7 downto 0);
+	oreg20_data			: out std_logic_vector(7 downto 0);
+	oreg21_data			: out std_logic_vector(7 downto 0);
+	oreg22_data			: out std_logic_vector(7 downto 0);
+	oreg23_data			: out std_logic_vector(7 downto 0);
+	oreg24_data			: out std_logic_vector(7 downto 0);
+	oreg25_data			: out std_logic_vector(7 downto 0);
+	oreg26_data			: out std_logic_vector(7 downto 0);
+	oreg27_data			: out std_logic_vector(7 downto 0);
+	oreg28_data			: out std_logic_vector(7 downto 0);
+	oreg29_data			: out std_logic_vector(7 downto 0);
+	oreg30_data			: out std_logic_vector(7 downto 0);
+	oreg31_data			: out std_logic_vector(7 downto 0);
+	oreg32_data			: out std_logic_vector(7 downto 0);
+	oreg33_data			: out std_logic_vector(7 downto 0);
+	oreg34_data			: out std_logic_vector(7 downto 0);
+	oreg35_data			: out std_logic_vector(7 downto 0);
+	oreg36_data			: out std_logic_vector(7 downto 0);
+	oreg37_data			: out std_logic_vector(7 downto 0);
+	oreg38_data			: out std_logic_vector(7 downto 0);
+	oreg39_data			: out std_logic_vector(7 downto 0);
+	oreg40_data			: out std_logic_vector(7 downto 0);
+	oreg41_data			: out std_logic_vector(7 downto 0);
+	oreg42_data			: out std_logic_vector(7 downto 0);
+    oreg43_data         : out std_logic_vector(7 downto 0);
+    oreg44_data         : out std_logic_vector(7 downto 0);
+    oreg45_data         : out std_logic_vector(7 downto 0);
+    oreg46_data         : out std_logic_vector(7 downto 0);
+    oreg47_data         : out std_logic_vector(7 downto 0);
+    oreg48_data         : out std_logic_vector(7 downto 0);
+    oreg49_data         : out std_logic_vector(7 downto 0)
 
 	);
 end i2c_slave;
@@ -408,6 +492,50 @@ begin
 		oreg05_data			<= x"05"; -- Pattern Select   
 		oreg06_data			<= x"00"; -- red signal (7 downto 0)   
 		oreg07_data			<= x"30"; -- red signal (9 downto 8)   
+		oreg08_data			<= x"02"; -- green signal (7 downto 0)   
+		oreg09_data			<= x"00"; -- green signal (9 downto 8)   
+		oreg10_data			<= x"00"; -- blue signal (7 downto 0)   
+		oreg11_data			<= x"D0"; -- blue signal (9 downto 8)   
+		oreg12_data			<= x"02"; -- NCO Phase 0
+		oreg13_data			<= x"05"; -- NCO Phase 1 
+		oreg14_data			<= x"00"; -- NCO Phase 2 
+		oreg15_data			<= x"30"; -- NCO Phase 3 
+		oreg16_data			<= x"00"; -- NCO Phase 4 
+		oreg17_data			<= x"0A"; -- NCO Phase 5  
+		oreg18_data			<= x"00"; -- NCO Phase 6 
+		oreg19_data			<= x"00"; -- NCO Phase 7
+		oreg20_data			<= x"00"; -- NCO Update
+		oreg21_data			<= x"00"; -- V & D Output Size
+		oreg22_data			<= x"00"; -- Vsync Inversion 
+--		oreg23_data			<= x"18"; -- Vsync Long Period    
+--		oreg24_data			<= x"0E"; -- Vsync Short Period    
+		oreg23_data			<= x"50"; -- Vsync Long Period    
+		oreg24_data			<= x"14"; -- Vsync Short Period    
+		oreg25_data			<= x"08"; -- DE Start Point(7 downto 0)
+		oreg26_data			<= x"00"; -- DE Start Point(9 downto 8)
+		oreg27_data			<= x"1C"; -- DE VALID NUM(7 downto 0)   
+		oreg28_data			<= x"02"; -- DE VALID NUM(9 downto 8)   
+		oreg29_data			<= x"00"; -- Sync Update  
+		oreg30_data			<= x"00"; -- ADC Power Update   
+		oreg31_data			<= x"01"; -- PIX FRONT Start Point(7 downto 0)       
+		oreg32_data			<= x"00"; -- PIX FRONT Start Point(11 downto 8)     
+		oreg33_data			<= x"01"; -- PIX END Start Point(7 downto 0)         
+		oreg34_data			<= x"00"; -- PIX END Start Point(11 downto 8)  
+		oreg35_data			<= x"80"; -- PIX VALID(7 downto 0)  
+		oreg36_data			<= x"07"; -- PIX VALID(11 downto 8) 
+		oreg37_data			<= x"00"; 
+		oreg38_data			<= x"00"; 
+		oreg39_data			<= x"00"; 
+		oreg40_data			<= x"00"; 
+		oreg41_data			<= x"00"; 
+		oreg42_data			<= x"00"; 
+		oreg43_data			<= x"00"; 
+		oreg44_data			<= x"00"; 
+		oreg45_data			<= x"0F"; 
+		oreg46_data			<= x"00"; 
+		oreg47_data			<= x"00"; 
+		oreg48_data			<= x"00"; 
+		oreg49_data			<= x"00"; 
 		data_reg			<= (others => '0');
 		reg_rden_d			<= '0';
 		reg_updated			<= '0';
@@ -422,7 +550,50 @@ begin
 				when x"04" => data_reg <= ireg04_data;
 				when x"05" => data_reg <= ireg05_data;
 				when x"06" => data_reg <= ireg06_data;
-				when others => data_reg <= ireg07_data;
+				when x"07" => data_reg <= ireg07_data;
+				when x"08" => data_reg <= ireg08_data;
+				when x"09" => data_reg <= ireg09_data;
+				when x"0a" => data_reg <= ireg10_data;
+				when x"0b" => data_reg <= ireg11_data;
+				when x"0c" => data_reg <= ireg12_data;
+				when x"0d" => data_reg <= ireg13_data;
+				when x"0e" => data_reg <= ireg14_data;
+				when x"0f" => data_reg <= ireg15_data;
+				when x"10" => data_reg <= ireg16_data;
+				when x"11" => data_reg <= ireg17_data;
+				when x"12" => data_reg <= ireg18_data;
+				when x"13" => data_reg <= ireg19_data;
+				when x"14" => data_reg <= ireg20_data;
+				when x"15" => data_reg <= ireg21_data;
+				when x"16" => data_reg <= ireg22_data;
+				when x"17" => data_reg <= ireg23_data;
+				when x"18" => data_reg <= ireg24_data;
+				when x"19" => data_reg <= ireg25_data;
+				when x"1a" => data_reg <= ireg26_data;
+				when x"1b" => data_reg <= ireg27_data;
+				when x"1c" => data_reg <= ireg28_data;
+				when x"1d" => data_reg <= ireg29_data;
+				when x"1e" => data_reg <= ireg30_data;
+				when x"1f" => data_reg <= ireg31_data;
+				when x"20" => data_reg <= ireg32_data;
+				when x"21" => data_reg <= ireg33_data;
+				when x"22" => data_reg <= ireg34_data;
+				when x"23" => data_reg <= ireg35_data;
+				when x"24" => data_reg <= ireg36_data;
+				when x"25" => data_reg <= ireg37_data;
+				when x"26" => data_reg <= ireg38_data;
+				when x"27" => data_reg <= ireg39_data;
+				when x"28" => data_reg <= ireg40_data;
+				when x"29" => data_reg <= ireg41_data;
+				when x"2a" => data_reg <= ireg42_data;
+				when x"2b" => data_reg <= ireg43_data;
+				when x"2c" => data_reg <= ireg44_data;
+				when x"2d" => data_reg <= ireg45_data;
+				when x"2e" => data_reg <= ireg46_data;
+				when x"2f" => data_reg <= ireg47_data;
+				when x"30" => data_reg <= ireg48_data;
+				when x"31" => data_reg <= ireg49_data;
+				when others => null;
 			end case;
 		elsif write_done = '1' then
 			case reg_addr is
@@ -433,7 +604,50 @@ begin
 				when x"04" => oreg04_data <= data_out;
 				when x"05" => oreg05_data <= data_out;
 				when x"06" => oreg06_data <= data_out;
-				when others => oreg07_data <= data_out;
+				when x"07" => oreg07_data <= data_out;
+				when x"08" => oreg08_data <= data_out;
+				when x"09" => oreg09_data <= data_out;
+				when x"0a" => oreg10_data <= data_out;
+				when x"0b" => oreg11_data <= data_out;
+				when x"0c" => oreg12_data <= data_out;
+				when x"0d" => oreg13_data <= data_out;
+				when x"0e" => oreg14_data <= data_out;
+				when x"0f" => oreg15_data <= data_out;
+				when x"10" => oreg16_data <= data_out;
+				when x"11" => oreg17_data <= data_out;
+				when x"12" => oreg18_data <= data_out;
+				when x"13" => oreg19_data <= data_out;
+				when x"14" => oreg20_data <= data_out;
+				when x"15" => oreg21_data <= data_out;
+				when x"16" => oreg22_data <= data_out;
+				when x"17" => oreg23_data <= data_out;
+				when x"18" => oreg24_data <= data_out;
+				when x"19" => oreg25_data <= data_out;
+				when x"1a" => oreg26_data <= data_out;
+				when x"1b" => oreg27_data <= data_out;
+				when x"1c" => oreg28_data <= data_out;
+				when x"1d" => oreg29_data <= data_out;
+				when x"1e" => oreg30_data <= data_out;
+				when x"1f" => oreg31_data <= data_out;
+				when x"20" => oreg32_data <= data_out;
+				when x"21" => oreg33_data <= data_out;
+				when x"22" => oreg34_data <= data_out;
+				when x"23" => oreg35_data <= data_out;
+				when x"24" => oreg36_data <= data_out;
+				when x"25" => oreg37_data <= data_out;
+				when x"26" => oreg38_data <= data_out;
+				when x"27" => oreg39_data <= data_out;
+				when x"28" => oreg40_data <= data_out;
+				when x"29" => oreg41_data <= data_out;
+				when x"2a" => oreg42_data <= data_out;
+				when x"2b" => oreg43_data <= data_out;
+				when x"2c" => oreg44_data <= data_out;
+				when x"2d" => oreg45_data <= data_out;
+				when x"2e" => oreg46_data <= data_out;
+				when x"2f" => oreg47_data <= data_out;
+				when x"30" => oreg48_data <= data_out;
+				when x"31" => oreg49_data <= data_out;
+				when others => null;
 			end case;
 		end if;
 		reg_rden_d			<= write_done;
